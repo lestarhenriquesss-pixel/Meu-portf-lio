@@ -137,6 +137,7 @@ function setupProjectRotator() {
   const kicker = document.getElementById("rotatorKicker");
   const title = document.getElementById("rotatorTitle");
   const dotsContainer = rotator.querySelector(".rotator-dots");
+  const progressBar = rotator.querySelector(".rotator-progress span");
 
   if (slides.length <= 1) return;
 
@@ -147,7 +148,7 @@ function setupProjectRotator() {
 
   let intervalId = null;
   let userPaused = false;
-  const intervalTime = 2500;
+  const intervalTime = 3200;
 
   if (dotsContainer) dotsContainer.innerHTML = "";
 
@@ -190,6 +191,12 @@ function setupProjectRotator() {
     });
 
     updateCaption(slides[activeIndex]);
+
+    if (progressBar && !prefersReducedMotion) {
+      progressBar.style.animation = "none";
+      progressBar.offsetHeight;
+      progressBar.style.animation = `rotatorProgress ${intervalTime}ms linear forwards`;
+    }
   }
 
   function nextSlide() {
