@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio profissional de Analista de Dados com projetos em Python, SQL, Looker Studio, JavaScript e Apps Script.">
+    <title>Henriques Lestar | Analista de Dados</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <canvas id="dataCanvas" aria-hidden="true"></canvas>
+
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <span class="brand-mark brand-photo">
+          <img src="assets/foto-henriques.png" alt="Foto de perfil de Henriques Lestar">
+        </span>
+        <span>Henriques Lestar</span>
+      </a>
+      <nav class="top-nav" aria-label="Navegação principal">
+        <a href="#especialidades">Especialidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#processo">Processo</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy" data-reveal>
+          <p class="section-kicker">Python · SQL · Looker Studio · JavaScript · Apps Script</p>
+          <h1>Henriques Lestar</h1>
+          <p class="role">Analista de Dados</p>
+          <p class="hero-text">
+            Crio dashboards, automações e aplicações internas para transformar rotina operacional
+            em visão de gestão. Meu trabalho conecta análise de dados, regras de negócio,
+            visualização e sistemas práticos para acompanhamento diário.
+          </p>
+
+          <div class="hero-actions" aria-label="Ações principais">
+            <a class="button primary" href="#projetos">Ver projetos</a>
+            <a class="button secondary" href="#contato">Falar comigo</a>
+          </div>
+
+          <dl class="hero-stats" aria-label="Resumo do portfólio">
+            <div>
+              <dt data-count="21">0</dt>
+              <dd>projetos criados</dd>
+            </div>
+            <div>
+              <dt data-count="5">0</dt>
+              <dd>tecnologias principais</dd>
+            </div>
+            <div>
+              <dt data-count="3">0</dt>
+              <dd>frentes de entrega</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="dashboard-frame project-rotator" aria-label="Projetos em destaque">
+            <img class="rotator-slide is-active" src="assets/resultados-operacao.png" alt="Dashboard Resultados Operação" data-kicker="Dashboard" data-title="Resultados Operação">
+            <img class="rotator-slide" src="assets/treinamentos-fs.jpg" alt="Dashboard Treinamentos FS" data-kicker="Dashboard" data-title="Treinamentos FS">
+            <img class="rotator-slide" src="assets/copa-tempos.png" alt="Dashboard COPA Tempos" data-kicker="Dashboard" data-title="COPA - Tempos">
+            <img class="rotator-slide" src="assets/boticario-carteirizacao.jpg" alt="Dashboard Carteirização Boticário" data-kicker="Dashboard" data-title="Carteirização Boticário">
+            <img class="rotator-slide" src="assets/app-calibragem.png" alt="App Calibragem" data-kicker="App interno" data-title="Calibragem QuintoAndar">
+            <img class="rotator-slide" src="assets/ecossistema-control.png" alt="Ecossistema Control Dashboards" data-kicker="Ecossistema" data-title="Control Dashboards">
+            <img class="rotator-slide" src="assets/app-controle-financeiro.png" alt="App Controle Financeiro" data-kicker="App Web" data-title="Controle Financeiro">
+            <img class="rotator-slide" src="assets/quinto-financiamento.png" alt="Dashboard Financiamento QuintoAndar" data-kicker="Dashboard" data-title="Financiamento QuintoAndar">
+            <img class="rotator-slide" src="assets/quinto-qualidade.jpg" alt="Dashboard Qualidade QuintoAndar" data-kicker="Dashboard" data-title="Qualidade QuintoAndar">
+            <img class="rotator-slide" src="assets/copa-resultados.jpg" alt="Dashboard COPA Resultados" data-kicker="Dashboard" data-title="COPA - Resultados">
+            <div class="frame-caption">
+              <span id="rotatorKicker">Dashboard</span>
+              <strong id="rotatorTitle">Resultados Operação</strong>
+            </div>
+            <div class="rotator-dots" aria-label="Selecionar projeto do carrossel"></div>
+          </div>
+          <div class="visual-stack" aria-label="Prévia de projetos">
+            <img src="assets/copa-tempos.png" alt="Dashboard COPA Tempos">
+            <img src="assets/app-calibragem.png" alt="App Calibragem QuintoAndar">
+            <img src="assets/ecossistema-control.png" alt="Ecossistema Control Dashboards">
+          </div>
+        </div>
+      </section>
+
+      <section class="section band" id="especialidades">
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker">Especialidades</p>
+          <h2>Dados aplicados em operação, gestão e ferramentas internas</h2>
+          <p>
+            O foco é construir soluções úteis para quem acompanha resultado todos os dias:
+            painéis de performance, automações, apps internos e camadas de análise que reduzem
+            trabalho manual.
+          </p>
+        </div>
+
+        <div class="capability-grid">
+          <article class="capability-card" data-reveal>
+            <span class="capability-index">01</span>
+            <h3>Dashboards analíticos</h3>
+            <p>Indicadores de SLA, qualidade, produtividade, tempo, carteira, treinamento e operação.</p>
+            <ul>
+              <li>Looker Studio</li>
+              <li>KPIs</li>
+              <li>Visão gerencial</li>
+            </ul>
+          </article>
+
+          <article class="capability-card" data-reveal>
+            <span class="capability-index">02</span>
+            <h3>Automação operacional</h3>
+            <p>Ferramentas para distribuir casos, validar regras, reduzir etapas repetitivas e dar escala ao processo.</p>
+            <ul>
+              <li>Python</li>
+              <li>Rotinas locais</li>
+              <li>Processos</li>
+            </ul>
+          </article>
+
+          <article class="capability-card" data-reveal>
+            <span class="capability-index">03</span>
+            <h3>Apps internos</h3>
+            <p>Interfaces web para registrar avaliações, controlar dados, organizar fluxos e apoiar tomada de decisão.</p>
+            <ul>
+              <li>JavaScript</li>
+              <li>Apps Script</li>
+              <li>HTML/CSS</li>
+            </ul>
+          </article>
+
+          <article class="capability-card" data-reveal>
+            <span class="capability-index">04</span>
+            <h3>Base e consulta</h3>
+            <p>Organização de dados para alimentar visões por período, analista, supervisor, carteira, esteira e cliente.</p>
+            <ul>
+              <li>SQL</li>
+              <li>Tratamento</li>
+              <li>Governança</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projetos">
+        <div class="section-heading compact" data-reveal>
+          <p class="section-kicker">Projetos selecionados</p>
+          <h2>Dashboards, automações e apps</h2>
+          <p>
+            Os cards destacam os projetos prioritários. A lista completa reúne
+            os dashboards implementados nas contas atendidas, além das
+            automações e aplicações internas fora do Looker Studio.
+          </p>
+        </div>
+
+        <div class="filter-bar" data-reveal aria-label="Filtrar projetos">
+          <button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter-button" type="button" data-filter="dashboard" aria-pressed="false">Dashboards</button>
+          <button class="filter-button" type="button" data-filter="python" aria-pressed="false">Python</button>
+          <button class="filter-button" type="button" data-filter="javascript" aria-pressed="false">JavaScript</button>
+          <button class="filter-button" type="button" data-filter="appscript" aria-pressed="false">Apps Script</button>
+          <button class="filter-button" type="button" data-filter="operacao" aria-pressed="false">Operação</button>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card" data-tags="dashboard looker operacao qualidade" data-reveal>
+            <img src="assets/treinamentos-fs.jpg" alt="Dashboard Treinamentos FS">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Treinamento</p>
+              <h3>Treinamentos FS</h3>
+              <p>
+                Registro concentrado e ranqueado da equipe de treinamento, com visão individual
+                e composta dos analistas novos, treinamentos aplicados, atuação dos guardiões,
+                notas e apontamentos para mapear rendimento e pontos de melhoria.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Treinamento</span>
+                <span>Qualidade</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/7d2909e6-f90b-4143-9e4b-2c9be3801756/page/vV5pF" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card featured" data-tags="dashboard looker operacao qualidade sql" data-reveal>
+            <img src="assets/resultados-operacao.png" alt="Resultados Operação QuintoAndar">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Operação</p>
+              <h3>Resultados Operação</h3>
+              <p>
+                Acompanhamento de SLA, KPIs de qualidade e indicadores de conformidade por analista.
+                O painel consolida dados de cada caso, carteira, quartis, FUP, pagamento e Salesforce
+                para controle total da operação.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>SLA</span>
+                <span>KPIs</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/bbaae49c-84a7-4572-8506-00026334fd72/page/p_pw7eisacqd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao sql" data-reveal>
+            <img src="assets/quinto-lead-time.jpg" alt="Dashboard Projeto LT">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Lead Time</p>
+              <h3>Projeto LT</h3>
+              <p>
+                Dashboard focado no estudo de Lead Time, com distribuição e abertura por períodos
+                dentro das ferramentas Zendesk e Salesforce para acompanhar gargalos e evolução dos tempos.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Lead Time</span>
+                <span>Salesforce</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/81034fbc-fbde-4543-bef3-0e5e3361df58/page/p_06f01cvc0d" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao sql" data-reveal>
+            <img src="assets/boticario-carteirizacao.jpg" alt="Dashboard Carteirização Boticário">
+            <div class="case-body">
+              <p class="case-client">Boticário · Carteira</p>
+              <h3>Carteirização Boticário</h3>
+              <p>
+                Acompanhamento da carteira de clientes por analista, com projeção estruturada
+                de valores por vencimento para apoiar gestão preventiva e maximização do retorno.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Carteira</span>
+                <span>Retorno</span>
+              </div>
+              <div class="case-links">
+                <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/5f3d2c22-dfcb-4866-bf41-a33db990b8a4/page/p_86g4ogh9zd" target="_blank" rel="noopener">Operação</a>
+                <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/532f9e78-bfc5-4155-b715-f7305d05ee09/page/p_86g4ogh9zd" target="_blank" rel="noopener">Gerencial</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-card featured" data-tags="dashboard looker operacao sql" data-reveal>
+            <img src="assets/copa-tempos.png" alt="Dashboard COPA Tempos">
+            <div class="case-body">
+              <p class="case-client">Copa Energia · Tempos</p>
+              <h3>COPA - Tempos</h3>
+              <p>
+                Painel de acompanhamento de TMA, atendidas e CSAT Voz, com recortes por LOB,
+                supervisor, turno, modalidade e período. A leitura combina visão macro e tabelas
+                detalhadas para investigação operacional.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>TMA</span>
+                <span>CSAT</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/23d23fc4-5182-4994-aaa1-3fa34c32243e/page/p_nugf5g9evd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card featured" data-tags="python operacao automacao" data-reveal>
+            <video src="assets/hefesto-distribuicao.mp4" controls muted loop playsinline preload="metadata" aria-label="Vídeo do Hefesto Distribuição"></video>
+            <div class="case-body">
+              <p class="case-client">Python · Automação</p>
+              <h3>Hefesto Distribuição</h3>
+              <p>
+                Ferramenta local em Python para automatizar a distribuição de casos entre analistas.
+                Reduz tempo de execução, valida erros e propriedades importantes, e foi projetada
+                para escalar novas funcionalidades conforme o processo evolui.
+              </p>
+              <div class="tag-row">
+                <span>Python</span>
+                <span>Automação</span>
+                <span>Distribuição</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-card featured" data-tags="javascript appscript operacao dashboard" data-reveal>
+            <img src="assets/ecossistema-control.png" alt="Ecossistema Control Dashboards">
+            <div class="case-body">
+              <p class="case-client">JavaScript · Apps Script</p>
+              <h3>Ecossistema Control Dashboards</h3>
+              <p>
+                Portal centralizado para acesso aos dashboards corporativos, indicadores e ferramentas
+                de análise por cliente. Organiza navegação, identidade visual, links externos e experiência
+                de consulta em um único ambiente.
+              </p>
+              <div class="tag-row">
+                <span>JavaScript</span>
+                <span>Apps Script</span>
+                <span>HTML/CSS</span>
+              </div>
+              <a class="text-link" href="https://concentrix.pages.voidcloud.com.br/Ecossistema-Control-Dashboards/index.html" target="_blank" rel="noopener">Abrir projeto</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard javascript appscript operacao" data-reveal>
+            <img src="assets/quinto-documento-fiscal.png" alt="Painel QuintoAndar Documento Fiscal">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Ecossistema</p>
+              <h3>QuintoAndar</h3>
+              <p>
+                Página de conta com os painéis de SLA, KPIs, qualidade, financiamento, elegibilidade,
+                documento fiscal e acompanhamento operacional, criada para guiar resultado, confiança
+                no processo e transparência das leituras.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>JavaScript</span>
+                <span>Operação</span>
+              </div>
+              <a class="text-link" href="https://concentrix.pages.voidcloud.com.br/Ecossistema-Control-Dashboards/quintoandar.html" target="_blank" rel="noopener">Abrir página</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao qualidade" data-reveal>
+            <img src="assets/quinto-gerencial.jpg" alt="Dashboard Resultados Gerencial">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Gerencial</p>
+              <h3>Resultados Gerencial</h3>
+              <p>
+                Acompanhamento de SLA, KPIs de qualidade e indicadores de conformidade por time,
+                com gráficos detalhados para leituras de longa duração e visão gerencial.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Gestão</span>
+                <span>KPIs</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/d576d337-edfd-4d9d-9cf3-9a89c6b1cabc/page/p_8sn57bn4vd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao qualidade sql" data-reveal>
+            <img src="assets/quinto-financiamento.png" alt="Dashboard Resultados Financiamento Interno">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Financiamento</p>
+              <h3>Resultados Financiamento Interno</h3>
+              <p>
+                Painel consolidado da esteira de Financiamento Interno, com foco em desempenho,
+                atingimento de supervisores, qualidade, KPIs, volumes de casos e cenários individuais
+                e coletivos.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Financiamento</span>
+                <span>Supervisão</span>
+              </div>
+              <a class="text-link" href="https://datastudio.google.com/u/0/reporting/86d1e164-ca26-4949-971e-ad8f4b952716/page/p_h2cil7gm2d/edit" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao sql" data-reveal>
+            <img src="assets/quinto-elegibilidade.jpg" alt="Dashboard Elegibilidade">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Distribuição</p>
+              <h3>Elegibilidade</h3>
+              <p>
+                Acompanhamento de distribuição de casos por analista, time e gerencial, com foco em
+                validar equilíbrio e visão em tempo real da carteira de cada esteira e analista.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Carteira</span>
+                <span>Distribuição</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/208a364a-f00e-4ac7-b07a-1e11792de6cc/page/p_oau7qay6pd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao qualidade" data-reveal>
+            <img src="assets/quinto-qualidade.jpg" alt="Dashboard Qualidade FS">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Qualidade</p>
+              <h3>Qualidade FS</h3>
+              <p>
+                Detalhamento das monitorias e apontamentos do time de qualidade, com abertura por
+                blocos, feedbacks, notas e datas para análise individual, por esteira e por supervisores.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Qualidade</span>
+                <span>Monitorias</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/7e9454b5-1677-4eb3-8683-cad13ed4d184/page/p_p3ml5qy80d" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao" data-reveal>
+            <img src="assets/quinto-documento-fiscal.png" alt="Painel de Solicitação de Documento Fiscal">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · Documento Fiscal</p>
+              <h3>Painel de Solicitação de Documento Fiscal</h3>
+              <p>
+                Painel detalhado do estado atual do caso, com foco na comunicação entre parceiros
+                e corretores para emissões de notas fiscais.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Documento fiscal</span>
+                <span>Comunicação</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/0695b82c-7467-4bf2-be34-670af43601fb/page/p_h2cil7gm2d" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao qualidade" data-reveal>
+            <img src="assets/boticario-operacional.jpg" alt="Dashboard Resultados Boticário">
+            <div class="case-body">
+              <p class="case-client">Boticário · Operação</p>
+              <h3>Resultados Boticário</h3>
+              <p>
+                Acompanhamento de resultados consolidados, com métricas por equipe, tipo de atendimento
+                e período. Visão gerencial para leitura contínua de performance.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Performance</span>
+                <span>Gestão</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/2241ef8a-b49f-4686-ab85-3ca821514375/page/Sc9UF" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao qualidade" data-reveal>
+            <img src="assets/santander-gerencial.jpg" alt="Painel Gerencial Santander">
+            <div class="case-body">
+              <p class="case-client">Santander · Gerencial</p>
+              <h3>Painel Gerencial Santander</h3>
+              <p>
+                Monitoramento dos principais indicadores de desempenho da operação, com filtros
+                dinâmicos por data, segmento, supervisor e operador.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Performance</span>
+                <span>Supervisão</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/c69c8c69-b265-4674-942b-e95fedffedc1/page/p_1ofswz2swd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao" data-reveal>
+            <img src="assets/santander-operacional.jpg" alt="Painel Operacional Santander">
+            <div class="case-body">
+              <p class="case-client">Santander · Operação</p>
+              <h3>Painel Operacional Santander</h3>
+              <p>
+                Painel individual de performance que consolida resultados e atingimento de metas
+                de cada colaborador, com filtros por data e tipo de retenção.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Metas</span>
+                <span>Retenção</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/5223011a-db62-48c4-aa2f-da6dd8f2b729/page/p_1ofswz2swd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao qualidade" data-reveal>
+            <img src="assets/zurich-gerencial.png" alt="Painel Gerencial Zurich">
+            <div class="case-body">
+              <p class="case-client">Zurich · Gerencial</p>
+              <h3>Painel Gerencial Zurich</h3>
+              <p>
+                Painel gerencial para monitorar os principais indicadores de desempenho da operação,
+                com filtros dinâmicos por data, segmento, supervisor e operador.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Gestão</span>
+                <span>Indicadores</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/3392984d-981d-44ff-bdad-f09047957de6/page/p_47afxom4sd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao" data-reveal>
+            <img src="assets/zurich-operador.jpg" alt="Painel Individual Zurich">
+            <div class="case-body">
+              <p class="case-client">Zurich · Individual</p>
+              <h3>Painel Individual Zurich</h3>
+              <p>
+                Painel individual de performance que consolida resultados e atingimento de metas
+                por colaborador, permitindo filtros por data e tipo de retenção.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Individual</span>
+                <span>Metas</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/reporting/9624c937-cd30-4586-9dd4-09a16b4a4b20/page/IcMTF" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="dashboard looker operacao sql" data-reveal>
+            <img src="assets/copa-resultados.jpg" alt="Dashboard Resultados Copa Energia">
+            <div class="case-body">
+              <p class="case-client">Copa Energia · Resultados</p>
+              <h3>Resultados Copa Energia</h3>
+              <p>
+                Acompanhamento de resultados por períodos, com separação de unique e esforço.
+                A arquitetura traz gráficos robustos e camadas para leitura detalhada da gerência
+                de Collection.
+              </p>
+              <div class="tag-row">
+                <span>Looker Studio</span>
+                <span>Collection</span>
+                <span>Resultados</span>
+              </div>
+              <a class="text-link" href="https://lookerstudio.google.com/u/0/reporting/23d23fc4-5182-4994-aaa1-3fa34c32243e/page/p_nugf5g9evd" target="_blank" rel="noopener">Abrir dashboard</a>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="javascript appscript operacao" data-reveal>
+            <img src="assets/app-calibragem.png" alt="Aplicativo App Calibragem">
+            <div class="case-body">
+              <p class="case-client">QuintoAndar · App interno</p>
+              <h3>App Calibragem</h3>
+              <p>
+                Aplicativo para iniciar calibrações, registrar avaliações e organizar dados como offer,
+                analista auditado, esteira e usuário auditor. A interface apoia rastreabilidade antes
+                do preenchimento das perguntas.
+              </p>
+              <div class="tag-row">
+                <span>JavaScript</span>
+                <span>Apps Script</span>
+                <span>Auditoria</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-card" data-tags="javascript operacao app" data-reveal>
+            <img src="assets/app-controle-financeiro.png" alt="Aplicativo Controle Financeiro">
+            <div class="case-body">
+              <p class="case-client">JavaScript · App Web</p>
+              <h3>App Controle Financeiro</h3>
+              <p>
+                Aplicativo para controle de entradas, saídas, lançamentos, categorias e grupos.
+                Consolida saldo, resultado mensal, comparativo de gastos e resumo visual do mês.
+              </p>
+              <div class="tag-row">
+                <span>JavaScript</span>
+                <span>Vercel</span>
+                <span>Finanças</span>
+              </div>
+              <a class="text-link" href="https://financeiro-six-lake.vercel.app/index.html" target="_blank" rel="noopener">Abrir app</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="project-actions" data-reveal>
+          <button class="button secondary" type="button" id="loadMoreProjects">Ver mais 5 projetos</button>
+          <p id="projectCount" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="section gallery-band" aria-labelledby="galeria-title">
+        <div class="section-heading compact" data-reveal>
+          <p class="section-kicker">Galeria</p>
+          <h2 id="galeria-title">Principais telas do portfólio</h2>
+        </div>
+
+        <div class="gallery-strip" data-reveal>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="Treinamentos FS" data-summary="Registro concentrado e ranqueado da equipe de treinamento, com visão individual dos analistas, treinamentos aplicados, notas e apontamentos para acompanhar rendimento e pontos de melhoria.">
+            <img src="assets/treinamentos-fs.jpg" alt="Treinamentos FS">
+            <figcaption><span>Treinamentos FS</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="Resultados Operação" data-summary="Dashboard para acompanhamento de SLA, qualidade, conformidade, carteira, quartis, FUP, pagamento e Salesforce, apoiando o controle completo da operação.">
+            <img src="assets/resultados-operacao.png" alt="Resultados Operação">
+            <figcaption><span>Resultados Operação</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="Projeto LT" data-summary="Estudo de Lead Time com abertura por períodos, ferramentas e etapas do processo, facilitando a identificação de gargalos e evolução dos tempos operacionais.">
+            <img src="assets/quinto-lead-time.jpg" alt="Projeto LT">
+            <figcaption><span>Projeto LT</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="Carteirização Boticário" data-summary="Visão para distribuição, carteira e acompanhamento operacional, permitindo entender volumes, responsáveis e evolução da operação de forma prática.">
+            <img src="assets/boticario-carteirizacao.jpg" alt="Carteirização Boticário">
+            <figcaption><span>Carteirização Boticário</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="COPA - Tempos" data-summary="Painel voltado à análise de tempos, produtividade e operação, com leituras por período, equipe, supervisor, turno e modalidade.">
+            <img src="assets/copa-tempos.png" alt="COPA Tempos">
+            <figcaption><span>COPA - Tempos</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="Ecossistema Control Dashboards" data-summary="Camada centralizada para organizar acessos, projetos e telas analíticas do portfólio, conectando dashboards e aplicações em uma experiência única.">
+            <img src="assets/ecossistema-control.png" alt="Ecossistema Control Dashboards">
+            <figcaption><span>Ecossistema Control Dashboards</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="App Calibragem" data-summary="Aplicação interna para apoiar avaliações, calibração e controle de registros, reduzindo trabalho manual e melhorando a padronização das análises.">
+            <img src="assets/app-calibragem.png" alt="App Calibragem">
+            <figcaption><span>App Calibragem</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+          <figure class="gallery-card" tabindex="0" role="button" data-gallery-item data-title="App Controle Financeiro" data-summary="Aplicativo web para registrar entradas, saídas, categorias, grupos, saldo inicial, resultado mensal e comparativos visuais de gastos.">
+            <img src="assets/app-controle-financeiro.png" alt="App Controle Financeiro">
+            <figcaption><span>App Controle Financeiro</span><small>Clique para ver resumo</small></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section band" id="processo">
+        <div class="section-heading" data-reveal>
+          <p class="section-kicker">Processo de trabalho</p>
+          <h2>Da rotina operacional à solução acompanhável</h2>
+          <p>
+            Cada entrega nasce de uma dor prática: entender a regra, estruturar a base,
+            montar a visualização e transformar o resultado em rotina de acompanhamento.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article data-reveal>
+            <span>01</span>
+            <h3>Mapeamento</h3>
+            <p>Entendimento de operação, meta, responsáveis, periodicidade, fonte de dados e decisão esperada.</p>
+          </article>
+          <article data-reveal>
+            <span>02</span>
+            <h3>Base e regra</h3>
+            <p>Tratamento, consulta SQL, validação dos indicadores e padronização das regras de negócio.</p>
+          </article>
+          <article data-reveal>
+            <span>03</span>
+            <h3>Automação e app</h3>
+            <p>Uso de Python, JavaScript ou Apps Script quando a rotina precisa de escala, registro ou interface.</p>
+          </article>
+          <article data-reveal>
+            <span>04</span>
+            <h3>Dashboard</h3>
+            <p>Construção de painéis com filtros, hierarquias e leitura clara para operação e gestão.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contato">
+        <div class="contact-copy" data-reveal>
+          <p class="section-kicker">Contato</p>
+          <h2>Disponível para apresentar projetos, construir indicadores e evoluir rotinas analíticas.</h2>
+          <p>
+            Me contate nas seguintes plataformas!
+          </p>
+        </div>
+        <div class="contact-actions" data-reveal>
+          <a class="button secondary contact-button" href="mailto:lestar.henriques@concentrix.com" aria-label="Enviar e-mail para Henriques Lestar">
+            <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M3.5 6.8A2.8 2.8 0 0 1 6.3 4h11.4a2.8 2.8 0 0 1 2.8 2.8v10.4a2.8 2.8 0 0 1-2.8 2.8H6.3a2.8 2.8 0 0 1-2.8-2.8V6.8Zm2.1-.5 6.4 5.1 6.4-5.1H5.6Zm12.7 11.4V8.5l-5.6 4.4a1.1 1.1 0 0 1-1.4 0L5.7 8.5v9.2h12.6Z"/></svg>
+            E-mail
+          </a>
+          <a class="button secondary contact-button" href="https://www.linkedin.com/in/lestarangelo/" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil de Henriques Lestar no LinkedIn">
+            <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M6.5 8.8H3.4v10.1h3.1V8.8ZM5 4a1.8 1.8 0 1 0 0 3.6A1.8 1.8 0 0 0 5 4Zm14.7 9.4c0-3-1.6-4.8-4.1-4.8-1.8 0-2.7 1-3.1 1.7V8.8h-3v10.1h3.1v-5.2c0-1.4.7-2.3 1.9-2.3 1.1 0 1.7.8 1.7 2.3v5.2h3.1v-5.5Z"/></svg>
+            LinkedIn
+          </a>
+          <a class="button secondary contact-button" href="https://github.com/lestardeangelo" target="_blank" rel="noopener noreferrer" aria-label="Abrir perfil de Henriques Lestar no GitHub">
+            <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><path d="M12 3a9 9 0 0 0-2.8 17.6c.45.08.62-.2.62-.44v-1.58c-2.52.55-3.05-1.08-3.05-1.08-.41-1.05-1-1.33-1-1.33-.82-.56.06-.55.06-.55.9.06 1.38.94 1.38.94.8 1.37 2.1.98 2.61.75.08-.58.31-.98.57-1.2-2.01-.23-4.13-1-4.13-4.47 0-.99.35-1.8.93-2.43-.09-.23-.4-1.16.09-2.4 0 0 .76-.25 2.48.92A8.5 8.5 0 0 1 12 7.4c.77 0 1.53.1 2.25.3 1.72-1.17 2.48-.92 2.48-.92.49 1.24.18 2.17.09 2.4.58.63.93 1.44.93 2.43 0 3.47-2.12 4.24-4.14 4.46.32.28.61.82.61 1.66v2.46c0 .24.16.52.62.43A9 9 0 0 0 12 3Z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+
+    <div class="gallery-modal" id="galleryModal" role="dialog" aria-modal="true" aria-labelledby="galleryModalTitle" aria-hidden="true">
+      <div class="gallery-modal__backdrop" data-gallery-close></div>
+      <div class="gallery-modal__panel" role="document">
+        <button class="gallery-modal__close" type="button" data-gallery-close aria-label="Fechar resumo">×</button>
+        <img id="galleryModalImage" src="" alt="">
+        <div class="gallery-modal__content">
+          <p class="section-kicker">Resumo do projeto</p>
+          <h3 id="galleryModalTitle"></h3>
+          <p id="galleryModalText"></p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <span>Portfólio de Analista de Dados - Lestar Henriques</span>
+      <span>Python · SQL · Looker Studio · JavaScript · Apps Script</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
