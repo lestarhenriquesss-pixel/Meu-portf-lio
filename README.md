@@ -1,6 +1,6 @@
 # Portfólio de Analista de Dados
 
-- `mailto:lestar.henriques@concentrix.com`
+- `mailto:lestarherminio@gmail.com`
 - LinkedIn: `https://www.linkedin.com/in/lestarangelo/`
 - GitHub: `https://github.com/lestardeangelo`
 
