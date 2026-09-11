@@ -1,0 +1,172 @@
+TAP version 13
+# Subtest: animações ficam ativas por política fixa do site
+ok 1 - animações ficam ativas por política fixa do site
+  ---
+  duration_ms: 1.517647
+  type: 'test'
+  ...
+# Subtest: preferência de redução do dispositivo não desliga os efeitos
+ok 2 - preferência de redução do dispositivo não desliga os efeitos
+  ---
+  duration_ms: 0.141384
+  type: 'test'
+  ...
+# Subtest: escolhas salvas de versões anteriores não desativam animações
+ok 3 - escolhas salvas de versões anteriores não desativam animações
+  ---
+  duration_ms: 0.206481
+  type: 'test'
+  ...
+# Subtest: parâmetros antigos de URL não criam um modo de pausa
+ok 4 - parâmetros antigos de URL não criam um modo de pausa
+  ---
+  duration_ms: 0.256317
+  type: 'test'
+  ...
+# Subtest: o objeto de política fixa é imutável
+ok 5 - o objeto de política fixa é imutável
+  ---
+  duration_ms: 0.153143
+  type: 'test'
+  ...
+# Subtest: fonte e HTML gerado não possuem controles de pausa ou preferências
+ok 6 - fonte e HTML gerado não possuem controles de pausa ou preferências
+  ---
+  duration_ms: 2.626251
+  type: 'test'
+  ...
+# Subtest: faixa de tecnologias não pausa no hover
+ok 7 - faixa de tecnologias não pausa no hover
+  ---
+  duration_ms: 0.692834
+  type: 'test'
+  ...
+# Subtest: a página não consulta nem grava preferências de animação do visitante
+ok 8 - a página não consulta nem grava preferências de animação do visitante
+  ---
+  duration_ms: 0.79011
+  type: 'test'
+  ...
+# Subtest: preserva os 14 projetos mantidos, títulos, descrições completas e URLs originais
+ok 9 - preserva os 14 projetos mantidos, títulos, descrições completas e URLs originais
+  ---
+  duration_ms: 2.352471
+  type: 'test'
+  ...
+# Subtest: todos os cases têm ID único, enquadramento editorial e mídia local
+ok 10 - todos os cases têm ID único, enquadramento editorial e mídia local
+  ---
+  duration_ms: 1.755566
+  type: 'test'
+  ...
+# Subtest: busca desconsidera caixa e acentos
+ok 11 - busca desconsidera caixa e acentos
+  ---
+  duration_ms: 2.787775
+  type: 'test'
+  ...
+# Subtest: filtros combinam categoria e texto e preservam a ordem
+ok 12 - filtros combinam categoria e texto e preservam a ordem
+  ---
+  duration_ms: 2.063711
+  type: 'test'
+  ...
+# Subtest: busca encontra competências das tags, não apenas títulos
+ok 13 - busca encontra competências das tags, não apenas títulos
+  ---
+  duration_ms: 1.16319
+  type: 'test'
+  ...
+# Subtest: HTML pré-renderiza todos os projetos para leitura sem JavaScript
+ok 14 - HTML pré-renderiza todos os projetos para leitura sem JavaScript
+  ---
+  duration_ms: 1.920909
+  type: 'test'
+  ...
+# Subtest: todos os links externos abrem com isolamento de contexto
+ok 15 - todos os links externos abrem com isolamento de contexto
+  ---
+  duration_ms: 1.436812
+  type: 'test'
+  ...
+# Subtest: Premium Escuro aplica a paleta aprovada sem controles de laboratório
+ok 16 - Premium Escuro aplica a paleta aprovada sem controles de laboratório
+  ---
+  duration_ms: 3.174247
+  type: 'test'
+  ...
+# Subtest: progresso de rolagem é finito, limitado e estável com seção curta
+ok 17 - progresso de rolagem é finito, limitado e estável com seção curta
+  ---
+  duration_ms: 0.915958
+  type: 'test'
+  ...
+# Subtest: índice do case inclui os extremos sem extrapolar e valida total
+ok 18 - índice do case inclui os extremos sem extrapolar e valida total
+  ---
+  duration_ms: 0.194361
+  type: 'test'
+  ...
+# Subtest: converte cada etapa em posição de rolagem selecionável
+ok 19 - converte cada etapa em posição de rolagem selecionável
+  ---
+  duration_ms: 0.23182
+  type: 'test'
+  ...
+# Subtest: vitrine editorial usa cases existentes em dashboards e aplicações
+ok 20 - vitrine editorial usa cases existentes em dashboards e aplicações
+  ---
+  duration_ms: 4.19537
+  type: 'test'
+  ...
+# Subtest: catálogo de origem contém exatamente os 14 projetos mantidos
+ok 21 - catálogo de origem contém exatamente os 14 projetos mantidos
+  ---
+  duration_ms: 1.017535
+  type: 'test'
+  ...
+# Subtest: removidos não são pré-renderizados nem constam nos destaques
+ok 22 - removidos não são pré-renderizados nem constam nos destaques
+  ---
+  duration_ms: 8.450017
+  type: 'test'
+  ...
+# Subtest: caixa de ferramentas é lista estática de nomes e SVGs, não botões
+ok 23 - caixa de ferramentas é lista estática de nomes e SVGs, não botões
+  ---
+  duration_ms: 1.09
+  type: 'test'
+  ...
+# Subtest: seis logotipos locais monocromáticos distintos, sem retângulo de fundo
+ok 24 - seis logotipos locais monocromáticos distintos, sem retângulo de fundo
+  ---
+  duration_ms: 0.458859
+  type: 'test'
+  ...
+# Subtest: sparks substituídos por cinco alternadores compactos, sem fita na foto
+ok 25 - sparks substituídos por cinco alternadores compactos, sem fita na foto
+  ---
+  duration_ms: 1.41049
+  type: 'test'
+  ...
+# Subtest: vitrine contém etiquetas originais, sem botão de pausa
+ok 26 - vitrine contém etiquetas originais, sem botão de pausa
+  ---
+  duration_ms: 1.039777
+  type: 'test'
+  ...
+# Subtest: ícones sociais usam as silhuetas brancas da versão aprovada
+ok 27 - ícones sociais usam as silhuetas brancas da versão aprovada
+  ---
+  duration_ms: 1.071234
+  type: 'test'
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 27
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 142.275949

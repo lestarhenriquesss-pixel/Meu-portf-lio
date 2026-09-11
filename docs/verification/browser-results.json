@@ -1,0 +1,917 @@
+[
+  {
+    "test": "catalogue has 14 pre-rendered cards",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no removed IDs in runtime catalogue",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "continuous motion remains enabled",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no global or carousel pause controls",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "tilted hero restored",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "floating labels restored",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "hero image 1 renders a retained project",
+    "pass": true,
+    "detail": "resultados-operacao"
+  },
+  {
+    "test": "hero image 2 renders a retained project",
+    "pass": true,
+    "detail": "projeto-lt"
+  },
+  {
+    "test": "hero image 3 renders a retained project",
+    "pass": true,
+    "detail": "copa-tempos"
+  },
+  {
+    "test": "hero image 4 renders a retained project",
+    "pass": true,
+    "detail": "app-controle-financeiro"
+  },
+  {
+    "test": "hero image 5 renders a retained project",
+    "pass": true,
+    "detail": "ecossistema-control-dashboards"
+  },
+  {
+    "test": "carousel advances while hovered and keyboard-focused",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "animated background changes frames",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".brand: icon switches",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".brand: only one icon at a time",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".brand: fixed square slot",
+    "pass": true,
+    "detail": {
+      "x": 56,
+      "y": 30,
+      "width": 27,
+      "height": 27
+    }
+  },
+  {
+    "test": ".hero-signature: icon switches",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".hero-signature: only one icon at a time",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".hero-signature: fixed square slot",
+    "pass": true,
+    "detail": {
+      "x": 392.5625,
+      "y": 849.453125,
+      "width": 33,
+      "height": 33
+    }
+  },
+  {
+    "test": ".manifesto-bottom: icon switches",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".manifesto-bottom: only one icon at a time",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".manifesto-bottom: fixed square slot",
+    "pass": true,
+    "detail": {
+      "x": 784.171875,
+      "y": 534.515625,
+      "width": 38,
+      "height": 38
+    }
+  },
+  {
+    "test": ".portrait-topline: icon switches",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".portrait-topline: only one icon at a time",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".portrait-topline: fixed square slot",
+    "pass": true,
+    "detail": {
+      "x": 591.25,
+      "y": 860.515625,
+      "width": 34,
+      "height": 34
+    }
+  },
+  {
+    "test": ".contact-spark: icon switches",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".contact-spark: only one icon at a time",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": ".contact-spark: fixed square slot",
+    "pass": true,
+    "detail": {
+      "x": 1482,
+      "y": 493.6817626953125,
+      "width": 62,
+      "height": 62
+    }
+  },
+  {
+    "test": "portrait icon keeps original 34px size",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "tools list has no interactive elements",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "plain monochrome tool Python",
+    "pass": true,
+    "detail": {
+      "text": "Python",
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "cursor": "default",
+      "fill": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "test": "plain monochrome tool SQL",
+    "pass": true,
+    "detail": {
+      "text": "SQL",
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "cursor": "default",
+      "fill": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "test": "plain monochrome tool Java",
+    "pass": true,
+    "detail": {
+      "text": "Java",
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "cursor": "default",
+      "fill": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "test": "plain monochrome tool JavaScript",
+    "pass": true,
+    "detail": {
+      "text": "JavaScript",
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "cursor": "default",
+      "fill": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "test": "plain monochrome tool Looker Studio",
+    "pass": true,
+    "detail": {
+      "text": "Looker Studio",
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "cursor": "default",
+      "fill": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "test": "plain monochrome tool Apps Script",
+    "pass": true,
+    "detail": {
+      "text": "Apps Script",
+      "bg": "rgba(0, 0, 0, 0)",
+      "border": "0px",
+      "shadow": "none",
+      "radius": "0px",
+      "cursor": "default",
+      "fill": "rgb(255, 255, 255)"
+    }
+  },
+  {
+    "test": "technology marquee has real SVGs, no spark symbols",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "map commentary python",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "map commentary looker",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "map commentary javascript",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "map commentary sql",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "map works with keyboard",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "Copa search returns only COPA - Tempos",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "Boticário search returns only Carteirização Boticário",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "empty search has an actionable empty state",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "applications filter shows four remaining apps",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "empty automation category removed",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "load more reveals all 14 projects",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens treinamentos-fs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot treinamentos-fs",
+    "pass": true,
+    "detail": {
+      "height": 359.025390625,
+      "width": 608.7645263671875,
+      "natural": 1253,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video treinamentos-fs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens resultados-operacao",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot resultados-operacao",
+    "pass": true,
+    "detail": {
+      "height": 356.4370422363281,
+      "width": 551.882568359375,
+      "natural": 1042,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video resultados-operacao",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens projeto-lt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot projeto-lt",
+    "pass": true,
+    "detail": {
+      "height": 359.4485168457031,
+      "width": 712.40673828125,
+      "natural": 1314,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video projeto-lt",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens carteirizacao-boticario",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot carteirizacao-boticario",
+    "pass": true,
+    "detail": {
+      "height": 359.4490966796875,
+      "width": 780.0103149414062,
+      "natural": 1430,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video carteirizacao-boticario",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens copa-tempos",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot copa-tempos",
+    "pass": true,
+    "detail": {
+      "height": 354.5845947265625,
+      "width": 542.1963500976562,
+      "natural": 1000,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "separate image enlargement opens",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no project video copa-tempos",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens ecossistema-control-dashboards",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot ecossistema-control-dashboards",
+    "pass": true,
+    "detail": {
+      "height": 359.44842529296875,
+      "width": 856.5509643554688,
+      "natural": 1892,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video ecossistema-control-dashboards",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens quintoandar",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot quintoandar",
+    "pass": true,
+    "detail": {
+      "height": 359.44903564453125,
+      "width": 757.3563842773438,
+      "natural": 1458,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video quintoandar",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens resultados-gerencial",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot resultados-gerencial",
+    "pass": true,
+    "detail": {
+      "height": 359.4489440917969,
+      "width": 816.9550170898438,
+      "natural": 1600,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video resultados-gerencial",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens resultados-financiamento-interno",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot resultados-financiamento-interno",
+    "pass": true,
+    "detail": {
+      "height": 359.2649841308594,
+      "width": 604.7734375,
+      "natural": 1079,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video resultados-financiamento-interno",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens elegibilidade",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot elegibilidade",
+    "pass": true,
+    "detail": {
+      "height": 359.44891357421875,
+      "width": 678.0368041992188,
+      "natural": 1277,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video elegibilidade",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens qualidade-fs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot qualidade-fs",
+    "pass": true,
+    "detail": {
+      "height": 359.5885009765625,
+      "width": 650.65869140625,
+      "natural": 1310,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video qualidade-fs",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens painel-de-solicitacao-de-documento-fiscal",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot painel-de-solicitacao-de-documento-fiscal",
+    "pass": true,
+    "detail": {
+      "height": 359.4485168457031,
+      "width": 757.3554077148438,
+      "natural": 1458,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video painel-de-solicitacao-de-documento-fiscal",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens app-calibragem",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot app-calibragem",
+    "pass": true,
+    "detail": {
+      "height": 359.4488830566406,
+      "width": 607.735107421875,
+      "natural": 1361,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video app-calibragem",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "project dialog opens app-controle-financeiro",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "compact original screenshot app-controle-financeiro",
+    "pass": true,
+    "detail": {
+      "height": 358.31719970703125,
+      "width": 423.73150634765625,
+      "natural": 920,
+      "fit": "contain"
+    }
+  },
+  {
+    "test": "no project video app-controle-financeiro",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "portrait has no mouse filter or transform",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "copy icon is centered",
+    "pass": true,
+    "detail": {
+      "dx": 0,
+      "dy": 0
+    }
+  },
+  {
+    "test": "copy-email action gives feedback",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "social link preserved social-linkedin",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "social link has no badge social-linkedin",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "social link preserved social-github",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "social link has no badge social-github",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 320px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 320px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 16,
+        "right": 127.375
+      },
+      {
+        "left": 268,
+        "right": 304
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 320px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 390px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 390px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 20,
+        "right": 131.375
+      },
+      {
+        "left": 198.953125,
+        "right": 370
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 390px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 600px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 600px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 20,
+        "right": 131.375
+      },
+      {
+        "left": 408.953125,
+        "right": 580
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 600px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 768px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 768px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 32,
+        "right": 154.984375
+      },
+      {
+        "left": 508.703125,
+        "right": 736
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 768px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 960px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 960px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 32,
+        "right": 166.53125
+      },
+      {
+        "left": 310.15625,
+        "right": 619.078125
+      },
+      {
+        "left": 762.703125,
+        "right": 928
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 960px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 1100px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 1100px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 32,
+        "right": 166.53125
+      },
+      {
+        "left": 380.15625,
+        "right": 689.078125
+      },
+      {
+        "left": 902.703125,
+        "right": 1068
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 1100px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 1366px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 1366px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 56,
+        "right": 190.53125
+      },
+      {
+        "left": 474.21875,
+        "right": 835.1875
+      },
+      {
+        "left": 1118.859375,
+        "right": 1310
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 1366px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 1600px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 1600px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 56,
+        "right": 190.53125
+      },
+      {
+        "left": 591.21875,
+        "right": 952.1875
+      },
+      {
+        "left": 1352.859375,
+        "right": 1544
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 1600px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 1920px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 1920px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 80,
+        "right": 214.53125
+      },
+      {
+        "left": 751.21875,
+        "right": 1112.1875
+      },
+      {
+        "left": 1648.859375,
+        "right": 1840
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 1920px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no horizontal overflow 2560px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "header elements do not overlap 2560px",
+    "pass": true,
+    "detail": [
+      {
+        "left": 400,
+        "right": 534.53125
+      },
+      {
+        "left": 1071.21875,
+        "right": 1432.1875
+      },
+      {
+        "left": 1968.859375,
+        "right": 2160
+      }
+    ]
+  },
+  {
+    "test": "plain tools fit the viewport 2560px",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "mobile menu opens",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "mobile menu closes",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "no JavaScript errors or warnings",
+    "pass": true,
+    "detail": []
+  }
+]

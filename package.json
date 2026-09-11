@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-lestar-henriques",
+  "version": "3.2.1",
+  "private": true,
+  "description": "Portfólio Lestar — 14 projetos, Premium Escuro, SVGs brancos sem moldura.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "start:motion": "node scripts/serve.mjs --open"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

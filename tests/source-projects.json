@@ -1,0 +1,350 @@
+[
+  {
+    "index": 1,
+    "title": "Treinamentos FS",
+    "client": "QuintoAndar · Treinamento",
+    "description": "Registro concentrado e ranqueado da equipe de treinamento, com visão individual\n                e composta dos analistas novos, treinamentos aplicados, atuação dos guardiões,\n                notas e apontamentos para mapear rendimento e pontos de melhoria.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "qualidade"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Treinamento",
+      "Qualidade"
+    ],
+    "image": "assets/treinamentos-fs.jpg",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/reporting/7d2909e6-f90b-4143-9e4b-2c9be3801756/page/vV5pF"
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "title": "Resultados Operação",
+    "client": "QuintoAndar · Operação",
+    "description": "Acompanhamento de SLA, KPIs de qualidade e indicadores de conformidade por analista.\n                O painel consolida dados de cada caso, carteira, quartis, FUP, pagamento e Salesforce\n                para controle total da operação.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "qualidade",
+      "sql"
+    ],
+    "labels": [
+      "Looker Studio",
+      "SLA",
+      "KPIs"
+    ],
+    "image": "assets/resultados-operacao.png",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/reporting/bbaae49c-84a7-4572-8506-00026334fd72/page/p_pw7eisacqd"
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "title": "Projeto LT",
+    "client": "QuintoAndar · Lead Time",
+    "description": "Dashboard focado no estudo de Lead Time, com distribuição e abertura por períodos\n                dentro das ferramentas Zendesk e Salesforce para acompanhar gargalos e evolução dos tempos.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "sql"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Lead Time",
+      "Salesforce"
+    ],
+    "image": "assets/quinto-lead-time.jpg",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/u/0/reporting/81034fbc-fbde-4543-bef3-0e5e3361df58/page/p_06f01cvc0d"
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "title": "Carteirização Boticário",
+    "client": "Boticário · Carteira",
+    "description": "Acompanhamento da carteira de clientes por analista, com projeção estruturada\n                de valores por vencimento para apoiar gestão preventiva e maximização do retorno.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "sql"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Carteira",
+      "Retorno"
+    ],
+    "image": "assets/boticario-carteirizacao.jpg",
+    "video": null,
+    "links": [
+      {
+        "label": "Operação",
+        "href": "https://lookerstudio.google.com/u/0/reporting/5f3d2c22-dfcb-4866-bf41-a33db990b8a4/page/p_86g4ogh9zd"
+      },
+      {
+        "label": "Gerencial",
+        "href": "https://lookerstudio.google.com/u/0/reporting/532f9e78-bfc5-4155-b715-f7305d05ee09/page/p_86g4ogh9zd"
+      }
+    ]
+  },
+  {
+    "index": 5,
+    "title": "COPA - Tempos",
+    "client": "Copa Energia · Tempos",
+    "description": "Painel de acompanhamento de TMA, atendidas e CSAT Voz, com recortes por LOB,\n                supervisor, turno, modalidade e período. A leitura combina visão macro e tabelas\n                detalhadas para investigação operacional.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "sql"
+    ],
+    "labels": [
+      "Looker Studio",
+      "TMA",
+      "CSAT"
+    ],
+    "image": "assets/copa-tempos.png",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/u/0/reporting/23d23fc4-5182-4994-aaa1-3fa34c32243e/page/p_nugf5g9evd"
+      }
+    ]
+  },
+  {
+    "index": 7,
+    "title": "Ecossistema Control Dashboards",
+    "client": "JavaScript · Apps Script",
+    "description": "Portal centralizado para acesso aos dashboards corporativos, indicadores e ferramentas\n                de análise por cliente. Organiza navegação, identidade visual, links externos e experiência\n                de consulta em um único ambiente.",
+    "tags": [
+      "javascript",
+      "appscript",
+      "operacao",
+      "dashboard"
+    ],
+    "labels": [
+      "JavaScript",
+      "Apps Script",
+      "HTML/CSS"
+    ],
+    "image": "assets/ecossistema-control.png",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir projeto",
+        "href": "https://concentrix.pages.voidcloud.com.br/Ecossistema-Control-Dashboards/index.html"
+      }
+    ]
+  },
+  {
+    "index": 8,
+    "title": "QuintoAndar",
+    "client": "QuintoAndar · Ecossistema",
+    "description": "Página de conta com os painéis de SLA, KPIs, qualidade, financiamento, elegibilidade,\n                documento fiscal e acompanhamento operacional, criada para guiar resultado, confiança\n                no processo e transparência das leituras.",
+    "tags": [
+      "dashboard",
+      "javascript",
+      "appscript",
+      "operacao"
+    ],
+    "labels": [
+      "Looker Studio",
+      "JavaScript",
+      "Operação"
+    ],
+    "image": "assets/quinto-documento-fiscal.png",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir página",
+        "href": "https://concentrix.pages.voidcloud.com.br/Ecossistema-Control-Dashboards/quintoandar.html"
+      }
+    ]
+  },
+  {
+    "index": 9,
+    "title": "Resultados Gerencial",
+    "client": "QuintoAndar · Gerencial",
+    "description": "Acompanhamento de SLA, KPIs de qualidade e indicadores de conformidade por time,\n                com gráficos detalhados para leituras de longa duração e visão gerencial.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "qualidade"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Gestão",
+      "KPIs"
+    ],
+    "image": "assets/quinto-gerencial.jpg",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/reporting/d576d337-edfd-4d9d-9cf3-9a89c6b1cabc/page/p_8sn57bn4vd"
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "title": "Resultados Financiamento Interno",
+    "client": "QuintoAndar · Financiamento",
+    "description": "Painel consolidado da esteira de Financiamento Interno, com foco em desempenho,\n                atingimento de supervisores, qualidade, KPIs, volumes de casos e cenários individuais\n                e coletivos.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "qualidade",
+      "sql"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Financiamento",
+      "Supervisão"
+    ],
+    "image": "assets/quinto-financiamento.png",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://datastudio.google.com/u/0/reporting/86d1e164-ca26-4949-971e-ad8f4b952716/page/p_h2cil7gm2d/edit"
+      }
+    ]
+  },
+  {
+    "index": 11,
+    "title": "Elegibilidade",
+    "client": "QuintoAndar · Distribuição",
+    "description": "Acompanhamento de distribuição de casos por analista, time e gerencial, com foco em\n                validar equilíbrio e visão em tempo real da carteira de cada esteira e analista.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "sql"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Carteira",
+      "Distribuição"
+    ],
+    "image": "assets/quinto-elegibilidade.jpg",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/reporting/208a364a-f00e-4ac7-b07a-1e11792de6cc/page/p_oau7qay6pd"
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "title": "Qualidade FS",
+    "client": "QuintoAndar · Qualidade",
+    "description": "Detalhamento das monitorias e apontamentos do time de qualidade, com abertura por\n                blocos, feedbacks, notas e datas para análise individual, por esteira e por supervisores.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao",
+      "qualidade"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Qualidade",
+      "Monitorias"
+    ],
+    "image": "assets/quinto-qualidade.jpg",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/reporting/7e9454b5-1677-4eb3-8683-cad13ed4d184/page/p_p3ml5qy80d"
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "title": "Painel de Solicitação de Documento Fiscal",
+    "client": "QuintoAndar · Documento Fiscal",
+    "description": "Painel detalhado do estado atual do caso, com foco na comunicação entre parceiros\n                e corretores para emissões de notas fiscais.",
+    "tags": [
+      "dashboard",
+      "looker",
+      "operacao"
+    ],
+    "labels": [
+      "Looker Studio",
+      "Documento fiscal",
+      "Comunicação"
+    ],
+    "image": "assets/quinto-documento-fiscal.png",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir dashboard",
+        "href": "https://lookerstudio.google.com/u/0/reporting/0695b82c-7467-4bf2-be34-670af43601fb/page/p_h2cil7gm2d"
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "title": "App Calibragem",
+    "client": "QuintoAndar · App interno",
+    "description": "Aplicativo para iniciar calibrações, registrar avaliações e organizar dados como offer,\n                analista auditado, esteira e usuário auditor. A interface apoia rastreabilidade antes\n                do preenchimento das perguntas.",
+    "tags": [
+      "javascript",
+      "appscript",
+      "operacao"
+    ],
+    "labels": [
+      "JavaScript",
+      "Apps Script",
+      "Auditoria"
+    ],
+    "image": "assets/app-calibragem.png",
+    "video": null,
+    "links": []
+  },
+  {
+    "index": 21,
+    "title": "App Controle Financeiro",
+    "client": "JavaScript · App Web",
+    "description": "Aplicativo para controle de entradas, saídas, lançamentos, categorias e grupos.\n                Consolida saldo, resultado mensal, comparativo de gastos e resumo visual do mês.",
+    "tags": [
+      "javascript",
+      "operacao",
+      "app"
+    ],
+    "labels": [
+      "JavaScript",
+      "Vercel",
+      "Finanças"
+    ],
+    "image": "assets/app-controle-financeiro.png",
+    "video": null,
+    "links": [
+      {
+        "label": "Abrir app",
+        "href": "https://financeiro-six-lake.vercel.app/index.html"
+      }
+    ]
+  }
+]

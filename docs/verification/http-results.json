@@ -1,0 +1,392 @@
+[
+  {
+    "test": "Node serves exact final index.html bytes",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP page identifies v3.2.1",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource styles.css",
+    "pass": true,
+    "detail": "text/css; charset=utf-8"
+  },
+  {
+    "test": "HTTP resource script.js",
+    "pass": true,
+    "detail": "text/javascript; charset=utf-8"
+  },
+  {
+    "test": "HTTP resource scripts/catalog-core.js",
+    "pass": true,
+    "detail": "text/javascript; charset=utf-8"
+  },
+  {
+    "test": "HTTP resource scripts/motion-core.js",
+    "pass": true,
+    "detail": "text/javascript; charset=utf-8"
+  },
+  {
+    "test": "HTTP resource scripts/experience.js",
+    "pass": true,
+    "detail": "text/javascript; charset=utf-8"
+  },
+  {
+    "test": "HTTP resource scripts/tools.js",
+    "pass": true,
+    "detail": "text/javascript; charset=utf-8"
+  },
+  {
+    "test": "HTTP resource assets/quinto-lead-time.jpg",
+    "pass": true,
+    "detail": "image/jpeg"
+  },
+  {
+    "test": "HTTP resource assets/quinto-qualidade.jpg",
+    "pass": true,
+    "detail": "image/jpeg"
+  },
+  {
+    "test": "HTTP resource assets/ecossistema-control.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/treinamentos-fs.jpg",
+    "pass": true,
+    "detail": "image/jpeg"
+  },
+  {
+    "test": "HTTP resource assets/foto-henriques.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/boticario-carteirizacao.jpg",
+    "pass": true,
+    "detail": "image/jpeg"
+  },
+  {
+    "test": "HTTP resource assets/app-calibragem.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/quinto-financiamento.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/quinto-gerencial.jpg",
+    "pass": true,
+    "detail": "image/jpeg"
+  },
+  {
+    "test": "HTTP resource assets/social-cover.jpg",
+    "pass": true,
+    "detail": "image/jpeg"
+  },
+  {
+    "test": "HTTP resource assets/quinto-documento-fiscal.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/resultados-operacao.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/quinto-elegibilidade.jpg",
+    "pass": true,
+    "detail": "image/jpeg"
+  },
+  {
+    "test": "HTTP resource assets/app-controle-financeiro.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/copa-tempos.png",
+    "pass": true,
+    "detail": "image/png"
+  },
+  {
+    "test": "HTTP resource assets/favicon.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/favicon.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/javascript.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/javascript.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/appsscript.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/appsscript.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/python.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/python.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/sql.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/sql.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/java.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/java.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/looker.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/looker.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/github.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/github.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/icons/DEVICON-LICENSE.txt",
+    "pass": true,
+    "detail": "text/plain; charset=utf-8"
+  },
+  {
+    "test": "HTTP resource assets/icons/linkedin.svg",
+    "pass": true,
+    "detail": "image/svg+xml"
+  },
+  {
+    "test": "SVG MIME assets/icons/linkedin.svg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "HTTP resource assets/optimized/copa-tempos-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-gerencial-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/copa-tempos-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-elegibilidade-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/resultados-operacao-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/treinamentos-fs-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/treinamentos-fs-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/boticario-carteirizacao-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/app-controle-financeiro-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-documento-fiscal-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/app-controle-financeiro-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-elegibilidade-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-documento-fiscal-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-gerencial-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/app-calibragem-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/ecossistema-control-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-financiamento-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/resultados-operacao-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-financiamento-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-qualidade-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/foto-henriques.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-qualidade-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/boticario-carteirizacao-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/app-calibragem-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-lead-time-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/ecossistema-control-thumb.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HTTP resource assets/optimized/quinto-lead-time-preview.webp",
+    "pass": true,
+    "detail": "image/webp"
+  },
+  {
+    "test": "HEAD has no body",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "byte-range response",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "removed media is unavailable assets/hefesto-distribuicao.mp4",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "removed media is unavailable assets/copa-resultados.jpg",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "all remaining project references point to shipped assets",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "build includes identical runtime index.html",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "build includes identical runtime styles.css",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "build includes identical runtime script.js",
+    "pass": true,
+    "detail": null
+  },
+  {
+    "test": "build includes identical runtime scripts/tools.js",
+    "pass": true,
+    "detail": null
+  }
+]

@@ -1,0 +1,15 @@
+
+node_modules/
+dist/
+.vercel/
+.DS_Store
+Thumbs.db
+__pycache__/
+.env
+.env.*
+!.env.example
+
+/test-output/
+__pycache__/
+*.pyc
+

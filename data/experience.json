@@ -1,0 +1,17 @@
+{
+  "selected": [
+    "resultados-operacao",
+    "projeto-lt",
+    "copa-tempos",
+    "app-controle-financeiro",
+    "ecossistema-control-dashboards"
+  ],
+  "labels": [
+    "Operação",
+    "Lead time",
+    "Performance",
+    "Finanças",
+    "Aplicações"
+  ],
+  "heroDuration": 6500
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "key": "python",
+    "file": "assets/icons/python.svg",
+    "source": "https://github.com/devicons/devicon/blob/v2.17.0/icons/python/python-plain.svg",
+    "license": "MIT",
+    "changes": "Preenchimento branco e fundo transparente. Geometria preservada.",
+    "sha256": "d08182dff574de66683828c41bf307ac1dca23402ee7b1817970e1822acc8357"
+  },
+  {
+    "key": "java",
+    "file": "assets/icons/java.svg",
+    "source": "https://github.com/devicons/devicon/blob/v2.17.0/icons/java/java-plain.svg",
+    "license": "MIT",
+    "changes": "Preenchimento branco e fundo transparente. Geometria preservada.",
+    "sha256": "46f9c9b0eb875ecfb21983c517b32ab03a504dc6425ef2f8410a36c69046a91b"
+  },
+  {
+    "key": "javascript",
+    "file": "assets/icons/javascript.svg",
+    "source": "https://github.com/devicons/devicon/blob/v2.17.0/icons/javascript/javascript-plain.svg",
+    "license": "MIT",
+    "changes": "Preenchimento branco e fundo transparente. Campo quadrado removido; monograma JS preservado e viewBox ajustado.",
+    "sha256": "b53167c136b0768d3150f1dabdaa3515ac7d19eee1228a3eb36fe7dbd75f202e"
+  },
+  {
+    "key": "sql",
+    "file": "assets/icons/sql.svg",
+    "source": "https://github.com/devicons/devicon/blob/v2.17.0/icons/azuresqldatabase/azuresqldatabase-plain.svg",
+    "license": "MIT",
+    "changes": "Preenchimento branco e fundo transparente. Geometria preservada.",
+    "sha256": "323f0a8540d10b40035a983943840a4209db6911e4e22e6116ed24c99b70778d"
+  },
+  {
+    "key": "looker",
+    "file": "assets/icons/looker.svg",
+    "source": "https://github.com/simple-icons/simple-icons/blob/13.21.0/icons/looker.svg",
+    "license": "CC0-1.0",
+    "changes": "Preenchimento branco e fundo transparente. Geometria preservada.",
+    "sha256": "d77b9e4cf0a4923e5d98a1aec92626a15c965e00501a9eb4807543947cf1a1fd"
+  },
+  {
+    "key": "appsscript",
+    "file": "assets/icons/appsscript.svg",
+    "source": "https://github.com/simple-icons/simple-icons/blob/13.21.0/icons/googleappsscript.svg",
+    "license": "CC0-1.0",
+    "changes": "Preenchimento branco e fundo transparente. Geometria preservada.",
+    "sha256": "ac94bcdb7dde2f7a48f09e923b6474b63ec353d6063968a47b4f6abc29b39552"
+  },
+  {
+    "key": "linkedin",
+    "file": "assets/icons/linkedin.svg",
+    "source": "SVG da versão 3.1.0 aprovada nesta conversa; silhueta preservada",
+    "sha256": "06bd3943fd2c90c927064b4cb396cc7a0c8b0dece71b8658f4beb0b9a3950b76"
+  },
+  {
+    "key": "github",
+    "file": "assets/icons/github.svg",
+    "source": "SVG da versão 3.1.0 aprovada nesta conversa; silhueta preservada",
+    "sha256": "f7bd6025dfee58857c4199752bffa0e4e01c7f669379d5a0e7e064b4c19fe40a"
+  }
+]

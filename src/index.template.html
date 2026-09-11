@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0d16">
+  <meta name="portfolio-version" content="3.2.1">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="author" content="{{NAME}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{URL}}">
+  <meta property="og:image" content="{{URL}}assets/social-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>{{TITLE}}</title>
+  <link rel="canonical" href="{{URL}}">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700;750;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="assets/optimized/resultados-operacao-preview.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css?v=3.2.1">
+  <script type="application/ld+json">{{STRUCTURED_DATA}}</script>
+  <script defer src="scripts/catalog-core.js?v=3.2.1"></script>
+  <script defer src="scripts/motion-core.js?v=3.2.1"></script>
+  <script defer src="scripts/experience.js?v=3.2.1"></script>
+  <script defer src="scripts/tools.js?v=3.2.1"></script>
+  <script defer src="script.js?v=3.2.1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
+  <header class="site-header" id="topo">
+    <div class="header-inner wrap">
+      <a class="brand" href="#inicio" aria-label="Lestar Henriques — início">{{rotator:python}}lestar<span class="brand-dot">.</span><span class="brand-lastname">Henriques</span></a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#projetos" data-nav>Projetos<span>{{PROJECT_COUNT}}</span></a>
+        <a href="#especialidades" data-nav>Especialidades</a>
+        <a href="#sobre" data-nav>Sobre mim</a>
+      </nav>
+      <div class="header-actions">
+        
+        <a class="header-contact" href="#contato">Vamos conversar {{i:arrow-up-right}}</a>
+        <button class="menu-toggle js-only icon-button" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Abrir menu">{{i:menu}}</button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Navegação móvel" hidden>
+      <a href="#projetos"><span>01</span> Projetos {{i:arrow-up-right}}</a>
+      <a href="#especialidades"><span>02</span> Especialidades {{i:arrow-up-right}}</a>
+      <a href="#sobre"><span>03</span> Sobre mim {{i:arrow-up-right}}</a>
+      <a href="#contato"><span>04</span> Vamos conversar {{i:arrow-up-right}}</a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="ambient" aria-hidden="true"><canvas id="ambientCanvas"></canvas><span class="ambient-glow glow-blue"></span><span class="ambient-glow glow-amber"></span></div>
+      <div class="hero-grid wrap">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span class="status-dot"></span> ENGENHARIA DE DADOS & INTELIGÊNCIA DE NEGÓCIO</p>
+          <h1 id="hero-title"><span class="title-line"><span>Dados que</span></span><span class="title-line"><span>movem</span></span><span class="title-line accent"><span>negócios.</span></span></h1>
+          <p class="hero-description">Transformo complexidade em clareza. Conecto dados, automação e desenvolvimento a decisões que fazem sentido para o negócio.</p>
+          <div class="hero-actions"><a class="button button-dark" data-magnetic href="#projetos">Explore os projetos {{i:arrow-up-right}}</a><a class="text-cta" href="#especialidades">Conheça meu trabalho {{i:arrow-right}}</a></div>
+          <a class="hero-signature" href="#sobre"><img src="assets/optimized/foto-henriques.webp" width="52" height="52" alt=""><span><strong>Lestar Henriques</strong><small>Dados · BI · Soluções digitais</small></span><i></i>{{rotator:sql}}</a>
+        </div>
+        <div class="hero-visual">
+          <div class="showcase" id="showcase" role="region" aria-roledescription="carrossel" aria-label="Prévias de projetos reais">
+            <div class="showcase-orbits" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
+            <p class="showcase-kicker">SOLUÇÕES REAIS. VISÃO APLICADA.</p>
+            <div class="showcase-sheet" id="showcaseSheet">
+              <div class="sheet-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span id="showcaseCategory">BUSINESS INTELLIGENCE</span>{{i:arrow-up-right}}</div>
+              <a href="#caso-resultados-operacao" class="showcase-preview" id="showcaseLink" data-open-project="resultados-operacao" aria-label="Conhecer o projeto Resultados Operação">
+                <img id="showcaseImage" src="assets/optimized/resultados-operacao-preview.webp" width="1042" height="673" alt="Tela real do dashboard Resultados Operação" fetchpriority="high">
+              </a>
+              <a class="sheet-footer" id="showcaseDetails" href="#caso-resultados-operacao" data-open-project="resultados-operacao" aria-label="Abrir detalhes de Resultados Operação"><div><span class="mini-label">PROJETO SELECIONADO</span><strong id="showcaseTitle">Resultados Operação</strong></div><span class="sheet-index" id="heroIndex" aria-hidden="true">01</span>{{i:arrow-up-right}}</a>
+            </div>
+            <div class="data-label" aria-hidden="true">{{i:database}}<span>DADOS<br><strong>+ CONTEXTO</strong></span></div>
+            <div class="insight-sticker" aria-hidden="true"><span class="sticker-icon">{{i:arrow-up-right}}</span><span><strong>Da análise à ação.</strong><small>Inteligência para a operação</small></span></div>
+            <div class="showcase-bottom"><span id="showcaseClient">QuintoAndar · Operação</span><div class="showcase-controls js-only"><button class="icon-button" type="button" id="slidePrev" aria-label="Projeto anterior no carrossel">{{i:arrow-left}}</button><span id="slideCounter" aria-live="off">01 / 05</span><button class="icon-button" type="button" id="slideNext" aria-label="Próximo projeto no carrossel">{{i:arrow-right}}</button></div></div>
+            <div class="slide-progress" aria-hidden="true"><span id="slideProgress"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bottom wrap"><a href="#projetos"><span class="scroll-arrow">{{i:arrow-down}}</span> ROLE PARA DESCOBRIR</a><p>Do problema certo à solução que importa.</p><span>PORTFÓLIO / 2026</span></div>
+    </section>
+    <div class="tech-marquee" aria-label="Python, SQL, Java, JavaScript, Looker Studio e Apps Script"><div class="marquee-track" aria-hidden="true">{{TOOL_MARQUEE}}</div></div>
+    <section class="work-section" id="projetos" aria-labelledby="work-title">
+      <div class="section-heading wrap section-space" data-reveal><div><p class="eyebrow section-number">01 / PROJETOS EM FOCO</p><h2 id="work-title">Não é só visual.<br>É <em>visão de negócio.</em></h2></div><div class="heading-aside"><p>Do painel à automação: soluções que conectam informação, processo e quem precisa agir.</p><a class="underlined-link" href="#acervo">Conheça os {{PROJECT_COUNT}} projetos {{i:arrow-down}}</a></div></div>
+      <div class="story-section" id="storySection">
+        <div class="story-pin wrap" role="region" aria-label="Cinco projetos em destaque">
+          <div class="story-top"><span class="eyebrow">SOLUÇÕES EM DIFERENTES CONTEXTOS</span><a class="text-cta" href="#acervo">Ir para o acervo {{i:arrow-down}}</a></div>
+          <div class="story-layout" id="storyStage">
+            <div class="story-copy"><span class="story-number" id="storyNumber" aria-hidden="true">01</span><p class="eyebrow" id="storyClient">QuintoAndar · Operação</p><h3 id="storyTitle">Resultados<br>Operação</h3><p class="story-summary" id="storySummary">Uma operação inteira. Uma leitura conectada.</p><div class="tags" id="storyTags"><span>Looker Studio</span><span>SLA</span><span>KPIs</span></div><a class="underlined-link" id="storyOpen" href="#caso-resultados-operacao" data-open-project="resultados-operacao">Conhecer o case completo {{i:arrow-up-right}}</a></div>
+            <div class="story-art"><span class="story-art-label" id="storyCategory">BUSINESS INTELLIGENCE</span><div class="story-browser"><div class="sheet-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>DO DADO À DECISÃO</span>{{i:expand}}</div><a id="storyImageLink" href="#caso-resultados-operacao" data-open-project="resultados-operacao" aria-label="Abrir detalhes de Resultados Operação"><img id="storyImage" src="assets/optimized/resultados-operacao-preview.webp" alt="Tela real de Resultados Operação" width="1200" height="760" loading="lazy"><span class="story-expand">{{i:expand}} Explorar</span></a></div><div class="story-art-foot"><span>INTERFACE REAL DO PROJETO</span><span id="storyMedium">Dashboard interativo</span></div></div>
+          </div>
+          <div class="story-controls"><div class="story-tabs js-only" role="group" aria-label="Escolha o projeto em destaque">{{STORY_TABS}}</div><div class="story-arrows js-only"><button class="icon-button" type="button" id="storyPrev" aria-label="Case anterior">{{i:arrow-left}}</button><button class="icon-button" type="button" id="storyNext" aria-label="Próximo case">{{i:arrow-right}}</button></div></div>
+          <div class="story-meta"><span class="story-scroll-hint">ROLE PARA EXPLORAR OS CASES <span>↓</span></span><span>BI + DADOS + APLICAÇÕES</span></div><p id="storyStatus" class="sr-only" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="evidence-strip wrap"><div><strong>{{PROJECT_COUNT}}</strong><span>projetos no acervo</span></div><div><strong>{{DASHBOARD_COUNT}}</strong><span>dashboards</span></div><div><strong>04</strong><span>aplicações</span></div><p>Diferentes ferramentas.<br><em>A mesma visão de entrega.</em></p></div>
+    </section>
+    <section class="expertise-section section-space" id="especialidades" aria-labelledby="expertise-title">
+      <div class="wrap">
+        <div class="section-heading" data-reveal><div><p class="eyebrow section-number">02 / O QUE EU CONSTRUO</p><h2 id="expertise-title">Além do dashboard.<br><em>O fluxo completo.</em></h2></div><p class="heading-aside">A ferramenta muda conforme o desafio. O compromisso é o mesmo: uma solução útil para quem acompanha resultados todos os dias.</p></div>
+        <div class="expertise-layout">
+          <div class="system-card" data-reveal>
+            <div class="system-card-head"><span>DA ORIGEM À DECISÃO</span>{{i:route}}</div>
+            <div class="system-visual">
+              <svg class="system-map-lines" viewBox="0 0 500 340" preserveAspectRatio="none" aria-hidden="true"><path d="M65 78Q65 170 250 170"/><path d="M435 103Q385 170 250 170"/><path d="M105 265Q165 170 250 170"/><path d="M395 257Q330 170 250 170"/></svg>
+              <div class="system-orbit orbit-a" aria-hidden="true"></div><div class="system-orbit orbit-b" aria-hidden="true"></div><div class="system-center">LH<span>DADOS COM CONTEXTO</span></div>
+              <button class="system-node node-a" type="button" data-skill="sql" aria-pressed="true" aria-controls="systemTooltip">{{t:sql}}<span>SQL</span></button>
+              <button class="system-node node-b" type="button" data-skill="python" aria-pressed="false" aria-controls="systemTooltip">{{t:python}}<span>Python</span></button>
+              <button class="system-node node-c" type="button" data-skill="looker" aria-pressed="false" aria-controls="systemTooltip">{{t:looker}}<span>Looker Studio</span></button>
+              <button class="system-node node-d" type="button" data-skill="javascript" aria-pressed="false" aria-controls="systemTooltip">{{t:javascript}}<span>JavaScript</span></button>
+              <span class="orbit-particle" aria-hidden="true"></span>
+            </div>
+            <div class="system-tooltip" id="systemTooltip" aria-live="polite" aria-atomic="true"><strong id="systemTooltipTitle">SQL · Da origem à consistência</strong><p id="systemTooltipText">Consultas, cruzamentos e regras de negócio para organizar a base que alimenta indicadores e aplicações.</p></div>
+            <div class="system-flow"><span>01. Dados</span>{{i:arrow-right}}<span>02. Contexto</span>{{i:arrow-right}}<strong>03. Decisão</strong></div>
+            <a href="#caso-ecossistema-control-dashboards" data-open-project="ecossistema-control-dashboards" class="automation-teaser"><span class="teaser-tool">{{t:javascript}}</span><span><small>NA PRÁTICA · APLICAÇÕES</small><strong>Ecossistema Control Dashboards</strong></span>{{i:arrow-up-right}}</a>
+          </div>
+          <div class="expertise-list">
+            <details class="expertise-item" open data-reveal><summary><span class="expertise-icon">{{i:chart}}</span><span><small>LEITURA QUE APOIA A GESTÃO</small><strong>Business Intelligence</strong></span><span class="details-plus" aria-hidden="true">+</span></summary><div class="expertise-detail"><p>Dashboards de SLA, qualidade, produtividade, tempo e carteira. Indicadores com hierarquia, filtros e contexto para sair do “quanto” e chegar ao “por quê”.</p><div class="tags"><span>Looker Studio</span><span>KPIs</span><span>Visão gerencial</span></div></div></details>
+            <details class="expertise-item" data-reveal><summary><span class="expertise-icon">{{i:bolt}}</span><span><small>MENOS REPETIÇÃO, MAIS CONTROLE</small><strong>Automação operacional</strong></span><span class="details-plus" aria-hidden="true">+</span></summary><div class="expertise-detail"><p>Rotinas para distribuir casos, validar regras e reduzir etapas repetitivas. Python aplicado a processos que precisam de consistência e espaço para evoluir.</p><div class="tags"><span>Python</span><span>Validações</span><span>Rotinas locais</span></div></div></details>
+            <details class="expertise-item" data-reveal><summary><span class="expertise-icon">{{i:code}}</span><span><small>INTERFACES QUE ORGANIZAM A ROTINA</small><strong>Aplicações internas</strong></span><span class="details-plus" aria-hidden="true">+</span></summary><div class="expertise-detail"><p>Interfaces para registrar avaliações, controlar informações e organizar acessos. Experiências pensadas para o trabalho real, da calibração ao controle financeiro.</p><div class="tags"><span>JavaScript</span><span>Apps Script</span><span>HTML/CSS</span></div></div></details>
+            <details class="expertise-item" data-reveal><summary><span class="expertise-icon">{{i:database}}</span><span><small>CONFIANÇA ANTES DA VISUALIZAÇÃO</small><strong>Base, consulta & regras</strong></span><span class="details-plus" aria-hidden="true">+</span></summary><div class="expertise-detail"><p>Organização e tratamento de dados para alimentar análises por período, analista, supervisor, carteira, esteira e cliente. A regra de negócio acompanha a informação.</p><div class="tags"><span>SQL</span><span>Tratamento</span><span>Governança</span></div></div></details>
+          </div>
+        </div>
+        <div class="tech-line" data-reveal><span>NA MINHA CAIXA DE FERRAMENTAS</span>{{TOOL_LIST}}</div>
+      </div>
+    </section>
+
+    <section class="catalog-section section-space wrap" id="acervo" aria-labelledby="catalog-title">
+      <div class="section-heading" data-reveal><div><p class="eyebrow section-number">03 / ACERVO COMPLETO</p><h2 id="catalog-title">Cada projeto,<br><em>uma possibilidade.</em></h2></div><p class="heading-aside">21 projetos, do indicador à aplicação.<br>Escolha uma frente ou procure o contexto que mais se conecta ao seu desafio.</p></div>
+      <div class="catalog-toolbar js-only" data-reveal>
+        <div class="filter-group" role="group" aria-label="Filtrar por tipo de projeto">{{FILTERS}}</div>
+        <label class="search-field">{{i:search}}<span class="sr-only">Buscar projeto, cliente ou tecnologia</span><input id="projectSearch" type="search" placeholder="Busque projeto, cliente, tecnologia..." autocomplete="off" maxlength="120"></label>
+      </div>
+      <div class="catalog-status js-only"><p id="catalogCount" role="status" aria-live="polite">Mostrando 6 de 21 projetos</p><button class="reset-filters" id="resetFilters" type="button" hidden>Limpar filtros {{i:close}}</button><span>IDEIA → CONSTRUÇÃO → APLICAÇÃO</span></div>
+      <div class="catalog-grid" id="catalogGrid">{{CATALOG}}</div>
+      <div class="empty-state" id="emptyState" hidden>{{i:search}}<h3>Nenhum projeto por aqui.</h3><p>Tente outro termo ou explore o acervo completo.</p><button type="button" class="button button-dark" id="emptyReset">Limpar busca e filtros {{i:arrow-right}}</button></div>
+      <div class="catalog-bottom"><button class="button button-outline js-only" type="button" id="loadMore">Ver mais projetos <span id="remainingCount">+6</span>{{i:arrow-down}}</button><p>{{i:lock}} Alguns painéis corporativos podem solicitar permissão.<br>As prévias e os detalhes estão disponíveis aqui.</p></div>
+    </section>
+
+    <section class="manifesto wrap section-space" aria-labelledby="manifestoTitle"><p class="eyebrow section-number">O QUE GUIA MEU TRABALHO</p><h2 id="manifestoTitle" data-scrub-text>Bons dados não terminam em um gráfico. Eles mudam a próxima decisão.</h2><div class="manifesto-bottom"><span>INFORMAÇÃO COM CONTEXTO.</span>{{rotator:java}}<span>TECNOLOGIA COM INTENÇÃO.</span></div></section>
+    <section class="about-section section-space" id="sobre" aria-labelledby="about-title">
+      <div class="about-grid wrap">
+        <div class="portrait-composition" data-reveal>
+          <div class="portrait-topline"><span>O PROFISSIONAL POR TRÁS DOS PROJETOS</span>{{rotator:javascript}}</div>
+          <div class="portrait-letters" aria-hidden="true">lh.</div>
+          <div class="portrait-photo"><img src="assets/optimized/foto-henriques.webp" width="560" height="560" alt="Foto de Lestar Henriques, autor deste portfólio" loading="lazy"></div>
+          <div class="portrait-label"><span class="status-dot"></span> LESTAR HENRIQUES<span>DADOS & TECNOLOGIA</span></div>
+          <div class="portrait-bottom"><span>TECNOLOGIA COM INTENÇÃO.</span><span>NEGÓCIO COM CONTEXTO.</span></div>
+        </div>
+        <div class="about-copy" data-reveal><p class="eyebrow section-number">04 / PRAZER, LESTAR</p><h2 id="about-title">Meu trabalho começa<br>na <em>pergunta certa.</em></h2><p class="about-lead">Antes de escolher a ferramenta, eu busco entender a decisão que precisa ser tomada.</p><p>Trabalho com dados e construo a ponte entre a rotina operacional e a visão de gestão. Meu trabalho combina análise, regras de negócio, visualização e desenvolvimento de soluções práticas.</p><p>Dos dashboards às automações e aplicações internas, meu foco é dar contexto aos indicadores e organizar o caminho entre a informação e quem precisa agir.</p><div class="about-principles"><span>{{i:check}} Clareza na leitura</span><span>{{i:check}} Consistência nas regras</span><span>{{i:check}} Utilidade na rotina</span></div><a href="{{LINKEDIN}}" target="_blank" rel="noopener noreferrer" class="underlined-link">Conheça minha trajetória no LinkedIn {{i:arrow-up-right}}</a></div>
+      </div>
+    </section>
+
+    <section class="process-section section-space wrap" id="processo" aria-labelledby="process-title">
+      <div class="section-heading" data-reveal><div><p class="eyebrow section-number">05 / COMO EU TRABALHO</p><h2 id="process-title">Da pergunta à solução.<br><em>Sem pular o contexto.</em></h2></div><p class="heading-aside">Cada entrega começa em uma necessidade prática e termina em uma forma mais clara de acompanhar o trabalho.</p></div>
+      <div class="process-grid">
+        <article data-reveal><div class="process-number">01<span>{{i:arrow-right}}</span></div><h3>Entender a operação</h3><p>Mapear a necessidade, a meta, os responsáveis, as fontes e a decisão esperada.</p><span class="process-output">SAÍDA / DIREÇÃO</span></article>
+        <article data-reveal><div class="process-number">02<span>{{i:arrow-right}}</span></div><h3>Estruturar a base</h3><p>Tratar os dados, consultar em SQL e validar indicadores e regras de negócio.</p><span class="process-output">SAÍDA / CONSISTÊNCIA</span></article>
+        <article data-reveal><div class="process-number">03<span>{{i:arrow-right}}</span></div><h3>Construir a solução</h3><p>Aplicar Python, JavaScript ou Apps Script quando a rotina pede escala, registro ou interface.</p><span class="process-output">SAÍDA / FUNCIONALIDADE</span></article>
+        <article data-reveal><div class="process-number">04<span>{{i:check}}</span></div><h3>Dar clareza à decisão</h3><p>Organizar painéis com filtros, hierarquias e leituras úteis para operação e gestão.</p><span class="process-output">SAÍDA / VISIBILIDADE</span></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato" aria-labelledby="contact-title">
+      <div class="wrap contact-inner">
+        <div class="contact-top" data-reveal><p class="eyebrow"><span class="status-dot"></span> ABERTO A CONVERSAS, PROJETOS E OPORTUNIDADES</p><span class="contact-spark" aria-hidden="true">{{rotator:looker}}</span></div>
+        <div class="contact-main" data-reveal><h2 id="contact-title">Seu próximo desafio<br>merece <em>clareza.</em></h2><a class="contact-round" href="mailto:{{EMAIL}}?subject=Vamos%20conversar%20sobre%20dados" aria-label="Enviar e-mail para Lestar Henriques">{{i:arrow-up-right}}</a></div>
+        <div class="contact-lower" data-reveal><p>Precisa transformar dados em direção, organizar uma operação ou tirar uma solução do papel? Vamos conversar.</p><div class="email-block"><span>COMECE POR UM OLÁ</span><div><a class="email-link" href="mailto:{{EMAIL}}">{{EMAIL}}</a><button class="copy-email icon-button js-only" type="button" data-copy-email aria-label="Copiar endereço de e-mail">{{i:copy}}</button></div></div></div>
+        <footer class="site-footer"><a class="footer-brand" href="#inicio">lestar<span>.</span><span>Henriques</span></a><p>Lestar Henriques · Dados & tecnologia <span class="site-version">v3.2.1</span></p><div class="footer-socials"><a href="{{LINKEDIN}}" target="_blank" rel="noopener noreferrer" class="social-link social-linkedin">{{t:linkedin}}<span>LinkedIn</span>{{i:arrow-up-right}}</a><a href="{{GITHUB}}" target="_blank" rel="noopener noreferrer" class="social-link social-github">{{t:github}}<span>GitHub</span>{{i:arrow-up-right}}</a><a class="back-top" href="#inicio" aria-label="Voltar ao início">{{i:arrow-up}}</a></div></footer>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="case-dialog" id="caseDialog" aria-labelledby="caseTitle">
+    <div class="dialog-topbar"><span id="caseEyebrow">PROJETO / BUSINESS INTELLIGENCE</span><button class="icon-button dialog-close" type="button" id="closeCase" aria-label="Fechar detalhes do projeto">{{i:close}}</button></div>
+    <div class="case-dialog-scroll" id="caseScroll"><div class="case-dialog-heading"><p class="eyebrow" id="caseClient"></p><h2 id="caseTitle"></h2><p id="caseSummary"></p></div><div class="case-media" id="caseMedia"></div><div class="case-dialog-body"><div class="case-overview"><p class="eyebrow">VISÃO GERAL DO PROJETO</p><p id="caseDescription"></p><div class="tags" id="caseTags"></div></div><div class="case-story"><section><span>01 / O DESAFIO</span><p id="caseChallenge"></p></section><section><span>02 / A SOLUÇÃO</span><p id="caseSolution"></p></section><section><span>03 / APLICAÇÃO NA ROTINA</span><p id="caseValue"></p></section></div><div class="case-links" id="caseLinks"></div><p class="case-permission" id="casePermission"></p></div></div>
+    <div class="dialog-footer"><button class="text-cta case-share" id="caseShare" type="button">{{i:copy}}Copiar link</button><button class="text-cta" type="button" id="casePrev">{{i:arrow-left}}Anterior</button><span id="casePosition"></span><button class="text-cta" type="button" id="caseNext">Próximo{{i:arrow-right}}</button></div>
+  </dialog>
+  <dialog class="image-dialog" id="imageDialog" aria-label="Imagem ampliada do projeto"><button class="icon-button" type="button" id="closeImage" aria-label="Fechar imagem ampliada">{{i:close}}</button><img id="fullImage" alt=""><p id="fullImageCaption"></p></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script id="projectData" type="application/json">{{PROJECT_DATA}}</script>
+  <script id="siteData" type="application/json">{{SITE_DATA}}</script>
+  <script id="toolData" type="application/json">{{TOOL_DATA}}</script>
+  <script id="experienceData" type="application/json">{{EXPERIENCE_DATA}}</script>
+</body>
+</html>
