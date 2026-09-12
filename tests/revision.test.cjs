@@ -58,5 +58,24 @@ test('ícones sociais usam as silhuetas brancas da versão aprovada', () => {
  assert.match(html,/M6\.94 8\.5H3\.56V20h3\.38V8\.5Z/);
  assert.match(html,/M12 \.5a12 12 0 0 0-3\.79 23\.39/);
  assert.match(html,/https:\/\/www.linkedin.com\/in\/lestarangelo\//);
- assert.match(html,/https:\/\/github.com\/lestardeangelo/);
+ assert.match(html,/https:\/\/github.com\/lestarhenriquesss-pixel/);
+});
+
+// Regressao: GitHub do perfil e rodape sem versao visivel.
+test('GitHub correto no perfil, no link social e nos metadados', () => {
+  const expected = 'https://github.com/lestarhenriquesss-pixel';
+  assert.equal(JSON.parse(read('data/site.json')).github, expected);
+  const html = read('index.html');
+  const anchor = html.match(/<a\b[^>]*\bsocial-github\b[^>]*>/)?.[0];
+  assert.ok(anchor?.includes('href="' + expected + '"'));
+  const json = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
+  assert.ok(JSON.parse(json).sameAs.includes(expected));
+});
+test('rodape nao exibe versao, inclusive depois do build', () => {
+  for (const file of ['src/index.template.html', 'index.html']) {
+    const footer = read(file).match(/<footer\b[^>]*>[\s\S]*?<\/footer>/)?.[0];
+    assert.ok(footer, file);
+    assert.doesNotMatch(footer, /site-version/);
+    assert.ok(footer.includes('Lestar Henriques'));
+  }
 });
